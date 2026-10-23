@@ -19,4 +19,3 @@ if __name__ == "__main__":
     print(f"Saved {len(items)} jobs. Check SUMMARY for individual board coverage.")
 
     raise SystemExit(0 if complete else 2)
-

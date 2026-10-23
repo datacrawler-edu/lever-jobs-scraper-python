@@ -39,4 +39,3 @@ if __name__ == "__main__":
             count += 1
 
     print(f"Exported {count} existing rows (maximum 1,000); completeness is not inferred.")
-

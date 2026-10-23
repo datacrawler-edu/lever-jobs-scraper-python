@@ -17,4 +17,3 @@ if __name__ == "__main__":
     print(f"Saved {len(items)} jobs. Complete within requested limits: {complete}")
 
     raise SystemExit(0 if complete else 2)
-

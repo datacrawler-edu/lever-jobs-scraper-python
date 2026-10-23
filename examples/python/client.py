@@ -101,4 +101,3 @@ def collect(payload):
                       "summary": summary}, indent=2))
 
     return items, complete
-

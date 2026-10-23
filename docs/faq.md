@@ -35,4 +35,3 @@ Yes, within the input limits. Change collection and download limits together to 
 ## Do I need a Lever account?
 
 No Lever login is required for public boards. API examples require an Apify account and token. The Actor does not submit applications.
-

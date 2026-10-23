@@ -75,4 +75,3 @@
 | `scrapedAt` | UTC timestamp recorded when this Dataset item was normalized. |
 
 `includeDescription=false` removes description bodies; published `lists` remain. Structured compensation is not currently extracted. Use `(boardSlug, sourceJobId)` as a snapshot identity.
-

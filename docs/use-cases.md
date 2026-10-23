@@ -15,4 +15,3 @@ Enable `includeDescription` and read `descriptionText` or `descriptionHtml`. Dep
 ## Export existing results
 
 Use [export_jobs_csv.py](../examples/python/export_jobs_csv.py) with an existing Dataset ID. It exports selected columns from at most 1,000 rows and starts no collection. For descriptions and nested category and structured section data, export JSON instead. The CSV example prefixes formula-like values with an apostrophe for spreadsheet safety.
-

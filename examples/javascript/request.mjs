@@ -63,4 +63,3 @@ const complete = run.status === 'SUCCEEDED' && summary?.complete === true && sum
 console.log(JSON.stringify({ runId: run.id, status: run.status, complete, summaryAvailable: summary !== null, summary }, null, 2));
 
 if (!complete) process.exitCode = 2;
-

@@ -17,4 +17,3 @@
 | `continueOnError` | `true` | Process the remaining boards when one board returns an error. |
 
 See [sample input](../data/sample-input.json). Unknown fields are rejected. No global company/keyword discovery. Public global Lever board URLs or slugs are supported; EU hosts and generic careers URLs are not supported. Timeouts and spending caps are run options, not input fields.
-

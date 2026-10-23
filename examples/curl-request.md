@@ -27,4 +27,3 @@ curl --fail-with-body --max-time 30 -H "Authorization: Bearer $APIFY_API_TOKEN" 
 ```
 
 Require `SUMMARY.complete` before treating the requested limited collection as complete. Missing summary means unknown coverage. Reading an existing Dataset starts no new run or job-result events.
-

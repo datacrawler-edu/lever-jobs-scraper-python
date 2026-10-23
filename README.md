@@ -211,4 +211,3 @@ For integration issues, [open a GitHub issue](https://github.com/datacrawler-edu
 ## License
 
 Examples and documentation are MIT licensed. See [LICENSE](LICENSE). This license does not grant rights over third-party job content.
-
