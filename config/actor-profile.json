@@ -1,0 +1,290 @@
+{
+
+  "repository": {
+
+    "name": "lever-jobs-scraper-python",
+
+    "description": "Lever job board API examples for Python, JavaScript and cURL. Collect company vacancies and export existing job data to CSV.",
+
+    "homepage": "https://apify.com/datascraperes/lever-jobs-scraper?fpr=edudata",
+
+    "language": "Python",
+
+    "license": "MIT"
+
+  },
+
+  "actor": {
+
+    "displayName": "Lever Jobs Scraper | Public ATS Job Data",
+
+    "id": "datascraperes/lever-jobs-scraper",
+
+    "storeUrl": "https://apify.com/datascraperes/lever-jobs-scraper",
+
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~lever-jobs-scraper",
+
+    "description": "Collect public job postings from specified Lever company board URLs or slugs."
+
+  },
+
+  "affiliate": {
+
+    "enabled": true,
+
+    "parameter": "fpr=edudata",
+
+    "actorUrl": "https://apify.com/datascraperes/lever-jobs-scraper?fpr=edudata",
+
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+
+  },
+
+  "platform": {
+
+    "apifyFreePlan": {
+
+      "monthlyPrepaidUsage": "$5",
+
+      "renewsMonthly": true,
+
+      "noCreditCardRequired": true,
+
+      "unusedCreditsExpire": true,
+
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+
+    }
+
+  },
+
+  "interfaces": {
+
+    "web": {
+
+      "enabled": true,
+
+      "inputTab": "Input",
+
+      "outputTab": "Dataset",
+
+      "runAction": "Start",
+
+      "primaryInput": "boardUrls",
+
+      "inputLabel": "Lever board URLs or slugs",
+
+      "inputSummary": "Enter public Lever company board URLs or slugs, then choose job limits.",
+
+      "exportFormats": [
+
+        "JSON",
+
+        "CSV"
+
+      ]
+
+    },
+
+    "api": {
+
+      "enabled": true,
+
+      "examples": [
+
+        "cURL",
+
+        "Python",
+
+        "JavaScript"
+
+      ]
+
+    }
+
+  },
+
+  "seo": {
+
+    "primaryKeyword": "Lever jobs scraper Python",
+
+    "secondaryKeywords": [
+
+      "Lever job board API examples",
+
+      "Lever jobs CSV export",
+
+      "Lever job descriptions"
+
+    ],
+
+    "topics": [
+
+      "lever",
+
+      "jobs",
+
+      "job-board",
+
+      "apify",
+
+      "python",
+
+      "recruiting-data",
+
+      "api-examples"
+
+    ],
+
+    "longTailIntents": [
+
+      "Collect Lever jobs from multiple company boards with Python",
+
+      "Export an existing Lever jobs Dataset to CSV",
+
+      "Read Lever job descriptions as text and HTML"
+
+    ]
+
+  },
+
+  "content": {
+
+    "readmeSectionOrder": [
+
+      "What this repository helps you do",
+
+      "Example result",
+
+      "Run without code",
+
+      "Try it with Apify's free plan",
+
+      "Quick start for developers",
+
+      "Input example",
+
+      "Request examples",
+
+      "Output fields",
+
+      "Common use cases",
+
+      "Long-tail use-case sections",
+
+      "FAQ",
+
+      "Limits and pricing",
+
+      "Hosted version",
+
+      "Responsible use",
+
+      "Support"
+
+    ],
+
+    "exampleFiles": [
+
+      "examples/python/collect_jobs.py",
+
+      "examples/python/batch_boards.py",
+
+      "examples/python/export_jobs_csv.py"
+
+    ],
+
+    "faqFile": "docs/faq.md"
+
+  },
+
+  "pricing": {
+
+    "summary": "Pay per unique job confirmed in the Dataset. Rates depend on the Apify tier; see the live Pricing tab.",
+
+    "unit": "one unique job confirmed in the Dataset",
+
+    "price": "See live Pricing tab; base $1 per 1,000 jobs, with tier discounts."
+
+  },
+
+  "distribution": {
+
+    "githubUrl": "https://github.com/datacrawler-edu/lever-jobs-scraper-python",
+
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/lever-jobs-scraper-python",
+
+    "githubToActorUrl": "https://apify.com/datascraperes/lever-jobs-scraper?fpr=edudata",
+
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+
+    "firstRelease": {
+
+      "tag": "v0.1.0",
+
+      "title": "Lever job board integration examples"
+
+    }
+
+  },
+
+  "examples": {
+
+    "inputFile": "data/sample-input.json",
+
+    "outputFile": "data/sample-output.json",
+
+    "csvFile": "data/sample-output.csv"
+
+  },
+
+  "measurement": {
+
+    "observationWindowDays": 30,
+
+    "githubSignals": [
+
+      "views",
+
+      "uniqueVisitors",
+
+      "clones",
+
+      "referrers",
+
+      "popularContent"
+
+    ],
+
+    "apifySignals": [
+
+      "users",
+
+      "runs",
+
+      "datasetItems",
+
+      "revenue"
+
+    ],
+
+    "searchChecks": [
+
+      "site:github.com/datacrawler-edu/lever-jobs-scraper-python",
+
+      "Lever jobs scraper Python"
+
+    ]
+
+  },
+
+  "support": {
+
+    "issuesUrl": "https://github.com/datacrawler-edu/lever-jobs-scraper-python/issues",
+
+    "actorSupportUrl": "https://apify.com/datascraperes/lever-jobs-scraper?fpr=edudata"
+
+  }
+
+}
+

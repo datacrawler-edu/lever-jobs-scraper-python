@@ -1,0 +1,20 @@
+{
+
+  "boardUrls": [
+
+    "https://jobs.lever.co/palantir"
+
+  ],
+
+  "includeDescription": false,
+
+  "pageSize": 1,
+
+  "maxJobsPerBoard": 1,
+
+  "maxTotalJobs": 1,
+
+  "continueOnError": true
+
+}
+
